@@ -1,0 +1,6 @@
+Command to run the PHP server (Windows):
+
+	php -S localhost:4000 -f index.php -c conf/php.ini
+
+If you are not running it on Windows, configuration
+file 'php.ini' is located in 'conf' folder 

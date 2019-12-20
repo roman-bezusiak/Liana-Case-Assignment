@@ -1,0 +1,156 @@
+/* ----- Fonts ----- */
+
+@font-face {
+	font-family: "Ubuntu";
+	src: local("ttf/Ubuntu-R.ttf");
+}
+
+/* ----- Layouts ----- */
+
+div#pageContainer {
+	/* Grig container */
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+
+	/* Size */
+	min-width: 100%;
+	min-height: 100%;
+
+	/* Offsets */
+	right: 0;
+	bottom: 0;
+
+	position: fixed;
+
+	background: linear-gradient(
+		45deg,
+		rgb(54, 54, 54),
+		rgb(0, 0, 0),
+		rgb(54, 100, 54)
+	);
+}
+
+div#appContainer,
+form#emailSubmissionForm {
+	/* Flexbox container */
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: center;
+}
+
+div#appContainer {
+	/* Grig item */
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: stretch;
+	align-self: stretch;
+
+	/* Flexbox container */
+	justify-content: center;
+	align-items: center;
+
+	/* Font */
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-size: 2vh;
+	color: rgb(255, 255, 255);
+
+	border: 1px solid rgb(93, 93, 93);
+	background-color: rgb(0, 0, 0);
+}
+
+/* ----- Application header ----- */
+
+div#appContainer > span#emailSubmissionFormHeader {
+	padding: .4rem;
+	background-color: rgb(47, 100, 41);
+	border: 2px solid rgb(187, 187, 187);
+	border-radius: 0.1rem;
+	text-align: center;
+}
+
+/* ---- Email submission form ----- */
+
+form#emailSubmissionForm {
+	/* Flexbox container */
+	justify-content: center;
+	align-items: center;
+
+	padding: .4rem;
+}
+
+form#emailSubmissionForm > fieldset {
+	padding: .4rem;
+}
+
+form#emailSubmissionForm > fieldset > input,
+form#emailSubmissionForm > fieldset > legend {
+	padding: .2rem;
+	border-radius: 0.1rem;
+}
+
+form#emailSubmissionForm > fieldset > input {
+	width: 30vw;
+}
+
+form#emailSubmissionForm > fieldset,
+form#emailSubmissionForm > fieldset > input,
+form#emailSubmissionForm > fieldset > legend,
+form#emailSubmissionForm > button {
+	border: 1px solid rgb(93, 93, 93);
+}
+
+form#emailSubmissionForm > div.formButtons > button,
+button#backToMainPageButton {
+	margin: .4rem;
+	padding: .4rem;
+	border: 0;
+	border-radius: 0.1rem;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+form#emailSubmissionForm > div.formButtons > button[type="submit"]:hover,
+form#emailSubmissionForm > div.formButtons > button[type="reset"]:hover,
+button#backToMainPageButton:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0); 
+}
+
+form#emailSubmissionForm > div.formButtons > button[type="submit"] {
+	background-color: rgb(0, 128, 0);
+}
+
+form#emailSubmissionForm > div.formButtons > button[type="reset"],
+button#backToMainPageButton {
+	background-color: rgb(93, 93, 93);
+}
+
+/* ----- Status messages  ----- */
+
+span#invalidSubmittedEmailMsg,
+span#emailSubmissionStatusMsg,
+span#copyright {
+	padding: .4rem;
+	text-align: center;
+	display: block;
+}
+
+span.errorMessage {
+	color: rgb(255, 0, 0);
+}
+
+span.successMessage {
+	color: rgb(127, 255, 0);
+}
+
+/* ----- Copyright stamp ----- */
+
+span#copyright {
+	padding: .4rem;
+	font-size: 1.5vh;
+	color: rgb(187, 187, 187);
+}
