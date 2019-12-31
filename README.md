@@ -1,6 +1,6 @@
-# Case assignment report
+# 📨 CASE ASSIGNMENT REPORT
 
-## Task
+## 📄 TASK
 
 ```txt
 Case assignment:
@@ -19,7 +19,7 @@ Required submissions:
         2. How much time was used
 ```
 
-## Completing the assignment
+## ✅ COMPLETING THE ASSIGNMENT
 
 In this assignment the following was implemented:
 
@@ -32,11 +32,11 @@ In this assignment the following was implemented:
    2. File reading for DB connection settings `.ini` file
    3. Saving the email into `PostgreSQL DB`
    4. Error handling
-   5. `.sql` file with DB and `email` table initialization instructions
+   5. `.sql` file with `email_db` DB and `email` table initialization instructions
 3. Overall code documentation in form of comments
-4. Screenshots of test runs and example `email_db.db` containing example instances
+4. Screenshots of test runs and example `email_db.db` containing example data instances
 
-## Used time
+## ⏱ USED TIME
 
 The time used for this project is approximately `50 hours`. It includes:
 
@@ -53,4 +53,11 @@ The time used for this project is approximately `50 hours`. It includes:
 
 The initial deadline for the project was `December 17` (3 weeks after receiving the task), but due to my university studies I was not able to finish it in time. I asked for an extension before the deadline, but did not receive a reply. In my email I asked to make deadline `December 22`.  
   
-Please, accept my apologies for the late submission.
+My apologies for the late submission.
+
+## ⚠️ REMARKS
+
+In order to run the project one will need to set up:
+
+1. `PHP server` and `PosgreSQL DB server` (`.sql` file with `email_db` DB and `email` table initialization instructions is included in `sql` folder)
+2. Client
