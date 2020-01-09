@@ -36,7 +36,7 @@ In this assignment the following was implemented:
 3. Overall code documentation in form of comments
 4. Screenshots of test runs and example `email_db.db` containing example data instances
 
-Here are the screenshots of the test runs:
+### 🧪 Test runs
 
 1. Main page
 
