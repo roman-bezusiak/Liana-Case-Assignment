@@ -36,6 +36,24 @@ In this assignment the following was implemented:
 3. Overall code documentation in form of comments
 4. Screenshots of test runs and example `email_db.db` containing example data instances
 
+Here are the screenshots of the test runs:
+
+1. Main page
+
+![Main page](./Tests/1_Main_page.png)
+
+2. Entering email
+
+![Entering email](./Tests/2_Entering_email.png)
+
+3. Successful submission
+
+![Successful submission](./Tests/3_Successful_submission.png)
+
+4. DB table data.png
+
+![DB table data](./Tests/4_DB_table_data.png)
+
 ## ⏱ USED TIME
 
 The time used for this project is approximately `50 hours`. It includes:
