@@ -73,7 +73,7 @@ The initial deadline for the project was **December 17** (3 weeks after receivin
   
 My apologies for the late submission.
 
-## ⚠️ REMARKS
+## ⚙️ OPERATING INSTRUCTIONS
 
 In order to run the project one will need to set up:
 
