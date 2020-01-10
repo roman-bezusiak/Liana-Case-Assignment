@@ -152,7 +152,7 @@ All PHP constants are global.
   do {} while (cond);
   for ($x = $init_val; $x < $end_val; $x++) {}
   foreach ($arr as $val) {}
-  foreach($ass_arr as $key => $val) {}
+  foreach ($ass_arr as $key => $val) {}
 
 # FUNCTIONS
 
