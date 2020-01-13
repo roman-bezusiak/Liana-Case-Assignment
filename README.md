@@ -77,5 +77,5 @@ My apologies for the late submission.
 
 In order to run the project one will need to set up:
 
-1. **PHP server** (`Run PHP server (Windows).bat`) and **PosgreSQL DB server** (`Project/sql/main.sql` file contains **email_db** DB and **email** table initialization instructions)
+1. **PHP server** (`Project/Run PHP server (Windows).bat`) and **PosgreSQL DB server** (`Project/sql/main.sql` file contains **email_db** DB and **email** table initialization instructions)
 2. Client
