@@ -29,12 +29,12 @@ In this assignment the following was implemented:
   - Styling of the client including responsive design
 - Server part of the web app
   - Email validation
-  - Fetching DB connection settings from a file (`Project/conf/emailSubmissionAppPGConn.ini`)
+  - Fetching DB connection settings from a file [***emailSubmissionAppPGConn.ini***](Project/conf/emailSubmissionAppPGConn.ini)
   - Email storage in **PostgreSQL DB**
   - Error handling
-  - `Project/sql/main.sql` file with **email_db** DB and **email** table initialization instructions
+  - [***main.sql***](Project/sql/main.sql) file with **email_db** DB and **email** table initialization instructions
 - Overall code documentation in form of comments
-- Screenshots of test runs and example DB file (`Project/Tests/email_db.db`) containing example data instances
+- Screenshots of test runs and example DB file [***email_db.db***](Project/Tests/email_db.db) containing example data instances
 
 ### 🧪 TESTS
 
@@ -77,5 +77,5 @@ My apologies for the late submission.
 
 In order to run the project one will need to set up:
 
-1. **PHP server** (`Project/Run PHP server (Windows).bat`) and **PosgreSQL DB server** (`Project/sql/main.sql` file contains **email_db** DB and **email** table initialization instructions)
+1. **PHP server** ([***run_php_server_win.bat***](Project/run_php_server_win.bat)) and **PosgreSQL DB server** ([***main.sql***](Project/sql/main.sql) file contains **email_db** DB and **email** table initialization instructions)
 2. Client
