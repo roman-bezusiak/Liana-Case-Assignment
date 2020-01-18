@@ -253,9 +253,9 @@
             /*
               If the email was valid, one of 3 status
               messages will be shown:
-                1. '$DBQuerySuccessMsg()'
-                2. '$DBQueryFailureMsg()'
-                3. '$DBConnFailureMsg()'
+                1. '$DBQuerySuccessMsg'
+                2. '$DBQueryFailureMsg'
+                3. '$DBConnFailureMsg'
 
               NOTE:
                 All of the status messages use the
