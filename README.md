@@ -36,7 +36,7 @@ In this assignment the following was implemented:
 
 ## ⏱ Used time
 
-The time used for this project is approximately ***50 hours***. It includes:
+The time used to finish this project is approximately **`50 hours`**. It includes:
 
 1. Planning the app structure
 2. Planning the app client design
@@ -49,7 +49,13 @@ The time used for this project is approximately ***50 hours***. It includes:
 9. Code documentation
 10. Writing the report
 
-The initial deadline for the project was ***December 17*** (***3 weeks*** after receiving the task), but due to my university studies I was not able to finish it in time. I asked for an extension before the deadline, but did not receive a reply. In my email I asked to make deadline ***December 22***.
+Improvements after the aforementioned period took approximately **`4 hours`**. They include:
+
+1. Quality of life improvements including testing ([***run_php_server_win.bat***](Project/bat/run_php_server_win.bat) / [***run_php_server_linux.sh***](Project/sh/run_php_server_linux.sh))
+2. Code, documentation, and [***README***](README.md) refactoring
+3. Improvement of configuration file reading in terms of reliability ([***emailSubmissionAppPGConn.ini***](Project/conf/emailSubmissionAppPGConn.ini))
+
+The initial deadline for the project was ***December 17*** (**`3 weeks`** after receiving the task), but due to my university studies I was not able to finish it in time. I asked for an extension before the deadline, but did not receive a reply. In my email I asked to make deadline ***December 22***.
 
 My apologies for the late submission.
 
@@ -62,18 +68,9 @@ In order to run the project one will need to set up:
 
 ## 🧪 Tests
 
-1. **Main page**
-
->![Main page](Tests/1_Main_page.png)
-
-2. **Entering email**
-
->![Entering email](Tests/2_Entering_email.png)
-
-3. **Successful submission**
-
->![Successful submission](Tests/3_Successful_submission.png)
-
-4. **DB table data**
-
->![DB table data](Tests/4_DB_table_data.png)
+Stage                     | Illustarion
+------------------------- | -----------------------------------------------------------
+Main page                 | ![Main page](Tests/1_Main_page.png)
+Entering email            | ![Entering email](Tests/2_Entering_email.png)
+Successful submission     | ![Successful submission](Tests/3_Successful_submission.png)
+DB table data             | ![DB table data](Tests/4_DB_table_data.png)
