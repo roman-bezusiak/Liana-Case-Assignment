@@ -57,7 +57,7 @@ My apologies for the late submission.
 
 In order to run the project one will need to set up:
 
-1. **`PHP server`** ([***run_php_server_win.bat***](Project/run_php_server_win.bat) / [***run_php_server_linux.sh***](Project/run_php_server_linux.sh) contain command to run the PHP server) and **`PosgreSQL DB server`** ([***main.sql***](Project/sql/main.sql) file contains **`email_db`** DB and **`email`** table initialization instructions)
+1. **`PHP server`** ([***run_php_server_win.bat***](Project/bat/run_php_server_win.bat) / [***run_php_server_linux.sh***](Project/sh/run_php_server_linux.sh) contain command to run the PHP server) and **`PosgreSQL DB server`** ([***main.sql***](Project/sql/main.sql) file contains **`email_db`** DB and **`email`** table initialization instructions)
 2. Client running **`localhost:4000`** (deployment address can be changed in scripts, mentioned in the previous step)
 
 ## 🧪 Tests
