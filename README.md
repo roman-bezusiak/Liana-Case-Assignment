@@ -74,7 +74,7 @@ Improvements after the code review:
    8. Unnecessary comments and code were deleted
 2. Security issues with **`XSS`** and **`SQL-injection`** vulnerabilities were addressed
    1. Received email data is filtered
-   2. SQL query is parameters are properly escaped
+   2. SQL query parameters are properly escaped
 
 Post-review fixes took approximately **`3 hours`**.
 
