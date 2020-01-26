@@ -12,22 +12,13 @@
       <span id="emailSubmissionFormHeader">EMAIL SUBMISSION APP</span> <!-- App header -->
       <?php
         if ($_SERVER["REQUEST_METHOD"] === "POST") {
-          $email = $_POST['email'];
-          $emailIsSubmitted = !empty($email);
-
-          /*
-            If user submits an empty email, one will
-            be presented with submission form again,
-            plus with corresponding error message
-          */
-
-          // Checking the validity of the email
+          // Filtering the email
           $email = filter_var(
-            htmlspecialchars($email, ENT_QUOTES, 'UTF-8'),
+            htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8'),
             FILTER_VALIDATE_EMAIL
           );
 
-          if ($email !== FALSE) {
+          if (!empty($email)) {
             $emailIsStored = FALSE; // Flag showing whether the email is saved into DB
             $conn = pg_connect(
               "host=localhost " .
